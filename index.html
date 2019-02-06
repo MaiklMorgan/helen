@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+        <link rel="stylesheet" href="/css/app.css" /> 
+    </head>
+
+    <body>
+        <div class="mainNav z-1">
+        <header class="main-header">
+            <div class="container container-100">
+                <div class="row">
+                    <div class="col-xs-7 col-xxs-5">
+                        <div class="logo">
+                            <a href="" title="">
+                                <div class="neon">Lena<span class="flux"> Ivashchenko</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-5 col-xxs-7">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topMenu" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-list fa-2x"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-theme">
+            <div class="container container-100">
+                <div class="collapse navbar-collapse" id="topMenu">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <div class="social-btn">
+                                <a href="#" class="fb" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#" class="insta" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#" class="in" title="Linked In"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="tel:+380664555651" rel="nofollow">+38 (066) 455-51-51</a>
+                        </li>
+                        <li>
+                            <a href="mailto:dvd7776@gmail.com" title="email" rel="nofollow">dvd7776@gmail.com</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        </div>
+
+        <section class="section section--bg-img section--padding-top-xhuge">
+            <div class="container container-70">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="box box--padding-large box--background-white"></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="box box--padding-large box--background-white">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title" data-i18n="title"></span>
+                                    <p class="blue-grey-text" data-i18n="name"></p>
+                                    <p class="blue-grey-text" data-i18n="job"></p>
+                                    <p class="blue-grey-text" data-i18n="company"></p> 
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section> 
+
+        <footer class="section--padding-top--xs-mhuge">
+            <div class="section section--padding-top-xlarger section--padding-bottom-xxlarger section--background-dark ">
+                <div class="container">
+                   <ul class="languagepicker">
+                        <a role="button" id="lng" class="active" data-renderlanguage="en"><li><img src="/images/usa.png"/>en</li></a>
+                        <a role="button" id="lng2" data-renderlanguage="ru"><li><img src="http://i63.tinypic.com/10zmzyb.png"/>ru</li></a>
+                        <a role="button" id="lng3" data-renderlanguage="ua"><li><img src="http://i68.tinypic.com/avo5ky.png"/>ua</li></a>
+                    </ul> 
+                </div>
+            </div>
+        </footer>
+
+        <script src="/js/app.js"></script>
+    </body>
+</html>
